@@ -1,0 +1,21 @@
+body{
+    background-color: darkkhaki;
+}
+.header{
+    height: 75px;
+    text-align: center;
+    background-color: bisque;
+    margin:em;
+    border-radius:4px ;
+    display: flex;
+    justify-content: center;
+}
+#content{
+    height: 300px;
+    text-align: center;
+    background-color:azure;
+    margin:em;
+    border-radius:4px ;
+    display: flex;
+    justify-content: center;
+}
