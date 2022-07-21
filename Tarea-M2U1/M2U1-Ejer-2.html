@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSFormulario</title>
+</head>
+
+<body>
+    <script>
+        function contar(){
+        var cc=document.formulario1.caja1.value.length;
+            cc=parseInt(cc);
+        alert("Ha ingresado "+cc+" caracteres");
+   
+        }
+    </script>
+    
+    <form name="formulario1" action="">
+        <label for="eti1">Ingrese un texto</label>
+        <textarea name="caja1" ></textarea>
+        <input type="button" onclick="contar()" value="Contar Caracteres">
+        
+    </form>
+</body>
+</html>

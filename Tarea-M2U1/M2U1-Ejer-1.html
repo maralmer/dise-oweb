@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2U1-Ejercicio 1</title>
+    <link rel="stylesheet" href="ejer1.css">
+</head>
+<body>
+
+    <div id="contenedor">
+        <div id="box_uno"></div>
+        <div id="box_dos"></div>
+        <div id="box_tres"></div>
+    </div>
+    <script>
+        var selone=document.getElementById('box_uno');
+        var seltwo=document.getElementById('box_dos');
+        var selthree=document.getElementById('box_tres');
+
+        selone.addEventListener('click', function(){
+            document.body.style.backgroundColor='red';
+
+        });
+        
+        seltwo.addEventListener('click', function(){
+            document.body.style.backgroundColor='green';
+
+        });
+        
+        selthree.addEventListener('click', function(){
+            document.body.style.backgroundColor='yellow';
+
+        });
+    </script>
+</body>
+</html>
