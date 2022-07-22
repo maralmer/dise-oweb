@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(181, 241, 221);
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nota{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: yellow;
+    font-size: 1em;
+
+}
+.marconota{
+    padding: 5px;
+    margin: 5px;
+    background-color:black;
+}
+
+.row{
+    
+    background-color: yellow;
+}
+.col{
+    
+    vertical-align: middle;
+}
