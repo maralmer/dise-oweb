@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+{{#if habilitado}}
+<p>Hola {{nombre}} {{apellido}} <a href="/salir">Salir</a></p>
+{{/if}}
+
+{{#unless habilitado}}
+<p>Campos incompletos</p>
+<form action="/ingresar" method="post">
+<label for="Nombre">Nombre</label>
+<input type="text" name="nombre">
+<label for="Apellido">Apellido:</label>
+<input type="text" name="apellido">
+<button>Ingresar</button></form>
+{{/unless}}
